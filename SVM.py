@@ -78,9 +78,6 @@ for idx, [tweet_id, class_labels, tweet_text] in enumerate(tweets):
 f.close()
 
 # print 100 example tweets and their class labels
-
 print '\r\nAmong the total {1} tweets in tweets.txt file, {0} tweets are predicted as positive.'.format(sum(y==1), len(y))
-
 print '\r\nAmong the total {1} tweets in tweets.txt file, {0} tweets are predicted as negative.'.format(sum(y==0), len(y))
-
 print '\r\nAmong the total {1} tweets in tweets.txt file, {0} tweets are predicted as advertisements.'.format(sum(y==2), len(y))
