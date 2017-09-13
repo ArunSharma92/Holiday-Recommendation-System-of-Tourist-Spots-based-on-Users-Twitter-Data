@@ -1,4 +1,3 @@
-
 # This is the code I used to retrieve tweets based on queries I mentioned in the design report
 
 import unicodedata
